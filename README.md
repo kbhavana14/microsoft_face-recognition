@@ -38,4 +38,4 @@ In this face attendance system, webcam captured frames will be matched against t
 -	<b>Note:</b>Before clicking on Take Attendance make sure that atleast one image must be captured.
 4)	Open Attendance.csv file to see the students Attendance list.
 ## YouTube Demo Link
-https://www.youtube.com/watch?v=3inC7Ta8fn8&feature=youtu.be&ab_channel=BhavanaKodali
+https://youtu.be/3inC7Ta8fn8
