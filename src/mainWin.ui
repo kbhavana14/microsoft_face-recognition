@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1010</width>
+    <height>666</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-11</x>
+      <y>-1</y>
+      <width>1091</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:pad, x1:0.168, y1:0.267, x2:0.995, y2:0.983, stop:0 rgba(209, 104, 165, 255), stop:1 rgba(255, 172, 255, 255))}</string>
+    </property>
+    <widget class="QLabel" name="mainheading">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>30</y>
+       <width>711</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>SMART ATTENDANCE SYSTEM USING FACE RECOGNITION</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>101</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../pageImages/mainIcon.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mainImg">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>140</y>
+       <width>341</width>
+       <height>461</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../pageImages/mainImg2.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="addStdBtn">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>220</y>
+       <width>261</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-radius:20px;
+background-color:rgb(255, 255, 255);
+	font: 14pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(0, 0, 0)
+}
+QPushButton:hover{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 0, 0)
+}</string>
+     </property>
+     <property name="text">
+      <string>ADD STUDENT</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="atdBtn">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>370</y>
+       <width>261</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-radius:20px;
+background-color:rgb(255, 255, 255);
+	font: 14pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(0, 0, 0)
+}
+QPushButton:hover{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 0, 0)
+}</string>
+     </property>
+     <property name="text">
+      <string>TAKE ATTENDACE</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
