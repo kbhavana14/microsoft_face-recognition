@@ -35,4 +35,7 @@ In this face attendance system, webcam captured frames will be matched against t
 -	If an eyeblink is detected, it marks the attendance
 -	If the detected face has no matchings in the existing student images, then it shows the detected face as unknown
 -	Press ‘Q’ to quit the webcam
+-	<b>Note:</b>Before clicking on Take Attendance make sure that atleast one image must be captured.
 4)	Open Attendance.csv file to see the students Attendance list.
+## YouTube Demo Link
+https://www.youtube.com/watch?v=3inC7Ta8fn8&feature=youtu.be&ab_channel=BhavanaKodali
